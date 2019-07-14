@@ -103,7 +103,7 @@ Data loading describes the insertion of data into the final target database
 * In the transformation step, the data extracted from source is cleansed and transformed .
 * Loading data into the target datawarehouse is the last step of the ETL process.
 
-# 3. Data Manipulation in R
+# 3. Data Manipulation in Python
 The process of changing data to make it more orgazined and easy to read is known as Data Manipulation.
 
 Before we discuss data manipulation in depth we need to understand **data wrangling or data munging** first.
