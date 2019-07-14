@@ -650,3 +650,146 @@ The rule of multiplication applies to the situation when we want to know the pro
 Rule of Multiplication The probability that Events A and B both occur is equal to the probability that Event A occurs times the probability that Event B occurs, given that A has occurred.
 
 P(A ∩ B) = P(A) P(B|A)
+
+## Probability Distribution:
+Probability is often associated with at least one event. This event can be anything. Basic examples of events include rolling a die or pulling a coloured ball out of a bag. In these examples the outcome of the event is random (you can’t be sure of the value that the die will show when you roll it), so the **variable that represents the outcome of these events is called a random variable (often abbreviated to RV)**.
+
+### The 3 types of probability
+
+#### Marginal Probability: 
+If A is an event, then the marginal probability is the probability of that event occurring, P(A). 
+**Example:** Assuming that we have a pack of traditional playing cards, an example of a marginal probability would be the probability that a card drawn from a pack is red: P(red) = 0.5.
+
+#### Joint Probability: 
+The probability of the intersection of two or more events. Visually it is the intersection of the circles of two events on a Venn Diagram (see figure below). If A and B are two events then the joint probability of the two events is written as P(A ∩ B). 
+**Example:** The probability that a card drawn from a pack is red and has the value 4 is P(red and 4) = 2/52 = 1/26. (There are 52 cards in a pack of traditional playing cards and the 2 red ones are the hearts and diamonds). We’ll go through this example in more detail later.
+
+#### Conditional Probability: 
+The conditional probability is the probability that some event(s) occur given that we know other events have already occurred. If A and B are two events then the conditional probability of A occurring given that B has occurred is written as P(A|B). 
+**Example:** The probability that a card is a four given that we have drawn a red card is P(4|red) = 2/26 = 1/13. (There are 52 cards in the pack, 26 are red and 26 are black. Now because we’ve already picked a red card, we know that there are only 26 cards to choose from, hence why the first denominator is 26).
+
+##### Distribution:
+Before we jump on to the explanation of distributions, let’s see what kind of data can we encounter. The data can be discrete or continuous.
+
+**Discrete Data**, as the name suggests, can take only specified values. For example, when you roll a die, the possible outcomes are 1, 2, 3, 4, 5 or 6 and not 1.5 or 2.45.
+
+**Continuous Data** can take any value within a given range. The range may be finite or infinite. For example, A girl’s weight or height, the length of the road. The weight of a girl can be any value from 54 kgs, or 54.5 kgs, or 54.5436kgs.
+
+##### Types of Distributions
+**1.Bernoulli Distribution**
+**2. Uniform Distribution**
+**3. Binomial Distribution**
+**4. Normal Distribution**
+**5. Poisson Distribution**
+**6. Exponential Distribution**
+
+#### Normal Distribution
+Normal distribution represents the behavior of most of the situations in the universe (That is why it’s called a “normal” distribution). The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
+
+* The mean, median and mode of the distribution coincide.
+* The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
+* The total area under the curve is 1.
+* Exactly half of the values are to the left of the center and the other half to the right.
+* A normal distribution is highly different from Binomial Distribution. However, if the number of trials approaches infinity then the shapes will be quite similar.
+
+##### Some of the properties of a standard normal distribution are mentioned below:
+* The normal curve is symmetric about the mean and bell shaped.
+* Mean, mode and median is zero which is the centre of the curve.
+* Approximately 68% of the data will be between -1 and +1 (i.e. within 1 standard deviation from the mean), 95% between -2 and +2 (within 2 SD from the mean) and 99.7% between -3 and 3 (within 3 SD from the mean)
+
+##### There are a few commonly used terms which we need to understand:
+* **Population** : Space of all possible elements from a set of data
+* **Sample** : consists of observations drawn from population
+* **Parameter** : measurable characteristic of a population such as mean, SD
+* **Statistic**: measurable characteristic of a sample
+
+
+#3# Central Limit Theorem (CLT)
+The central limit theorem (CLT) is simple. It just says that with a large sample size, sample means are normally distributed.
+
+Well, the central limit theorem (CLT) is at the heart of hypothesis testing – a critical component of the data science lifecycle.
+
+#### Formally Defining the Central Limit Theorem:
+Given a dataset with unknown distribution (it could be uniform, binomial or completely random), the sample means will approximate the normal distribution.
+
+#### Assumptions Behind the Central Limit Theorem
+Before we dive into the implementation of the central limit theorem, it’s important to understand the assumptions behind this technique:
+
+* The data must follow the **randomization condition**. It must be sampled randomly
+* Samples should be **independent of each other**. One sample should not influence the other samples
+* **Sample size** should be not more than 10% of the population when sampling is done without replacement
+* The sample size should be sufficiently large. Now, how we will figure out how large this size should be? Well, it depends on the population. When the population is skewed or asymmetric, the sample size should be large. If the population is symmetric, then we can draw small samples as well
+In general, a **sample size of 30 is considered sufficient when the population is symmetric**.
+
+          The mean of the sample means is denoted as:
+
+                    µ X̄ = µ
+
+          where,
+
+          µ X̄ = Mean of the sample means
+          µ= Population mean
+          
+          
+          And, the standard deviation of the sample mean is denoted as:
+
+                    σ X̄ = σ/sqrt(n)
+
+          where,
+
+          σ X̄ = Standard deviation of the sample mean
+          σ = Population standard deviation
+          n = sample size
+
+
+### Baye's Theorem (aka, Bayes Rule)
+Before understanding Baye's Theorem first we learn about **Conditional Probability**:
+
+##### Conditional Probability : 
+The probability that event A occurs, given that event B has occurred, is called a conditional probability.
+
+The conditional probability of A, given B, is denoted by the symbol P(A|B).
+
+##### Baye's Theorem:
+* Bayes' theorem (also known as Bayes' rule) is a useful tool for calculating conditional probabilities. 
+
+* Bayes’ Theorem is a way of finding a probability when we know certain other probabilities.
+
+Bayes' theorem can be stated as follows:
+
+                           
+                    The formula is: P(A|B) = P(A) P(B|A)P(B) 
+
+          Which tells us:     how often A happens given that B happens, written P(A|B),
+          When we know:       how often B happens given that A happens, written P(B|A),
+ 	 	          and how likely A is on its own, written P(A),
+ 	 	          and how likely B is on its own, written P(B)
+
+#### Bayes Theorem Rule:
+
+The rule has a very simple derivation that directly leads from the relationship between joint and conditional probabilities. First, note that P(A,B) = P(A|B)P(B) = P(B,A) = P(B|A)P(A). Next, we can set the two terms involving conditional probabilities equal to each other, so P(A|B)P(B) = P(B|A)P(A), and finally, divide both sides by P(B) to arrive at Bayes rule.
+
+In this formula, A is the event we want the probability of, and B is the new evidence that is related to A in some way.
+
+P(A|B) is called the **posterior**; this is what we are trying to estimate. In the above example, this would be the “probability of having cancer given that the person is a smoker”.
+
+P(B|A) is called the **likelihood**; this is the probability of observing the new evidence, given our initial hypothesis. In the above example, this would be the “probability of being a smoker given that the person has cancer”.
+
+P(A) is called the **prior**; this is the probability of our hypothesis without any additional prior information. In the above example, this would be the “probability of having cancer”.
+
+P(B) is called the marginal **likelihood**; this is the total probability of observing the evidence. In the above example, this would be the “probability of being a smoker”. In many applications of Bayes Rule, this is ignored, as it mainly serves as normalization.
+
+##### Example:
+Let us say P(Fire) means how often there is fire, and P(Smoke) means how often we see smoke, then:
+
+P(Fire|Smoke) means how often there is fire when we can see smoke 
+P(Smoke|Fire) means how often we can see smoke when there is fire
+
+So the formula kind of tells us "forwards" P(Fire|Smoke) when we know "backwards" P(Smoke|Fire)
+
+          Example: If dangerous fires are rare (1%) but smoke is fairly common (10%) due to barbecues, and 90% of dangerous fires make smoke then:
+          P(Fire|Smoke) = P(Fire) * P(Smoke|Fire) / P(Smoke) 
+                        = 1% x 90% / 10% 
+                        = 9%
+          So the "Probability of dangerous Fire when there is Smoke" is 9%
+
