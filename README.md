@@ -793,3 +793,98 @@ So the formula kind of tells us "forwards" P(Fire|Smoke) when we know "backwards
                         = 9%
           So the "Probability of dangerous Fire when there is Smoke" is 9%
 
+# 8. Statistical Inference
+### What is statistical inference?
+Statistical inference is the process of drawing conclusions about populations or scientific truths from data.
+
+The four-step process that encompasses statistics: Data Production, Exploratory Data Analysis, Probability and Inference.
+
+A **statistical inference** aims at learning characteristics of the population from a sample; the population characteristics are parameters and sample characteristics are statistics.
+
+A **statistical model** is a representation of a complex phenomena that generated the data.
+* It has mathematical formulations that describe relationships between random variables and parameters.
+* It makes assumptions about the random variables, and sometimes parameters.
+* A general form: data = model + residuals
+* Model should explain most of the variation in the data
+* Residuals are a representation of a lack-of-fit, that is of the portion of the data unexplained by the model.
+
+**Estimation** represents ways or a process of learning and determining the population parameter based on the model fitted to the data.
+
+**Point Estimation** and **Interval Estimation**, and **Hypothesis Testing** are three main ways of learning about the population parameter from the sample statistic.
+
+An **estimator** is particular example of a statistic, which becomes an **estimate** when the formula is replaced with actual observed sample values.
+
+**Point Estimation** = a single value that estimates the parameter. Point estimates are single values calculated from the sample
+
+**Confidence Intervals** = gives a range of values for the parameter Interval estimates are intervals within which the parameter is expected to fall, with a certain degree of confidence.
+
+**Hypothesis Tests** = tests for a specific value(s) of the parameter.
+In order to perform these inferential tasks, i.e., make inference about the unknown population parameter from the sample statistic, we need to know the likely values of the sample statistic. What would happen if we do sampling many times?
+
+We need the sampling distribution of the statistic
+* It depends on the model assumptions about the population distribution, and/or on the sample size.
+* Standard error refers to the standard deviation of a sampling distribution.
+
+
+## Hypothesis Testing
+### What is Hypothesis Testing?
+A statistical hypothesis is an assumption about a population parameter. This assumption may or may not be true. Hypothesis testing refers to the formal procedures used by statisticians to accept or reject statistical hypotheses.
+
+#### Statistical Hypotheses
+The best way to determine whether a statistical hypothesis is true would be to examine the entire population. Since that is often impractical, researchers typically examine a random sample from the population. If sample data are not consistent with the statistical hypothesis, the hypothesis is rejected.
+
+#### There are two types of statistical hypotheses.
+
+#### Null hypothesis. 
+The null hypothesis, denoted by Ho, is usually the hypothesis that sample observations result purely from chance.
+#### Alternative hypothesis. 
+The alternative hypothesis, denoted by H1 or Ha, is the hypothesis that sample observations are influenced by some non-random cause.
+
+### Hypothesis Tests
+Statisticians follow a formal process to determine whether to reject a null hypothesis, based on sample data. This process, called hypothesis testing, consists of four steps.
+
+* **State the hypotheses**: This involves stating the null and alternative hypotheses. The hypotheses are stated in such a way that they are mutually exclusive. That is, if one is true, the other must be false.
+* **Formulate an analysis plan**: The analysis plan describes how to use sample data to evaluate the null hypothesis. The evaluation often focuses around a single test statistic.
+* **Analyze sample data**: Find the value of the test statistic (mean score, proportion, t statistic, z-score, etc.) described in the analysis plan.
+* **Interpret results**: Apply the decision rule described in the analysis plan. If the value of the test statistic is unlikely, based on the null hypothesis, reject the null hypothesis.
+
+### Decision Errors
+Two types of errors can result from a hypothesis test.
+
+#### Type I error. 
+A Type I error occurs when the researcher rejects a null hypothesis when it is true. The probability of committing a Type I error is called the significance level. This probability is also called alpha, and is often denoted by α.
+
+#### Type II error. 
+A Type II error occurs when the researcher fails to reject a null hypothesis that is false. The probability of committing a Type II error is called Beta, and is often denoted by β. The probability of not committing a Type II error is called the Power of the test.
+
+### Decision Rules
+The analysis plan includes decision rules for rejecting the null hypothesis. In practice, statisticians describe these decision rules in two ways - with reference to a P-value or with reference to a region of acceptance.
+
+* **P-value**. The strength of evidence in support of a null hypothesis is measured by the P-value. Suppose the test statistic is equal to S. The P-value is the probability of observing a test statistic as extreme as S, assuming the null hypothesis is true. If the P-value is less than the significance level, we reject the null hypothesis.
+* **Region of acceptance**. The region of acceptance is a range of values. If the test statistic falls within the region of acceptance, the null hypothesis is not rejected. The region of acceptance is defined so that the chance of making a Type I error is equal to the significance level.
+* The set of values outside the region of acceptance is called the region of rejection. If the test statistic falls within the region of rejection, the null hypothesis is rejected. In such cases, we say that the hypothesis has been rejected at the α level of significance.
+
+#### Significance Level 
+Significance level is the probablity of rejecting the null hypothesis when it is true, which is known as **Type I Error**. Denoted by alpha.
+
+#### Confidence Level 
+The Confidence level is just the compliment of Significance level which signifies how confident you are in your decision. Express as 1 - alpha.
+
+Confidence Level + Significance Level = 1 (always)
+
+#### Computing the Significance Level : Two ways the significance level can be calculated:
+
+##### (A) One Tail Test :
+One-Tailed and Two-Tailed Tests
+A test of a statistical hypothesis, where the region of rejection is on only one side of the sampling distribution, is called a **one-tailed test**. 
+
+**For example**, suppose the null hypothesis states that the mean is less than or equal to 10. The alternative hypothesis would be that the mean is greater than 10. The region of rejection would consist of a range of numbers located on the right side of sampling distribution; that is, a set of numbers greater than 10.
+
+Example :- a college has ≥ 4000 student or data science ≤ 80% org adopted.
+
+##### (2) Two Tail Test
+A test of a statistical hypothesis, where the region of rejection is on both sides of the sampling distribution, is called a **two-tailed test**. 
+
+**For example**, suppose the null hypothesis states that the mean is equal to 10. The alternative hypothesis would be that the mean is less than 10 or greater than 10. The region of rejection would consist of a range of numbers located on both sides of sampling distribution; that is, the region of rejection would consist partly of numbers that were less than 10 and partly of numbers that were greater than 10.
+
+Example : a college != 4000 student or data science != 80% org adopted
