@@ -1015,7 +1015,14 @@ Matplotlib tries to make easy things easy and hard things possible. You can gene
 Matplotlib is inspried form the MATLAB software and reproduces many of it's feature
 
 ### Seaborn: 
-**Seaborn** is a library for creating informative and attractive statistical graphics in python. This library is based on matplotlib. Seaborn offers various features such as built in themes, color palettes, functions and tools to visualize univariate, bivariate, linear regression, matrices of data, statistical time series etc which lets us to build complex visualizations. 
+**Seaborn** is a library for creating informative and attractive statistical graphics in python. This library is based on matplotlib. 
+
+Seaborn offers various features such as built in themes, color palettes, functions and tools to visualize univariate, bivariate, linear regression, matrices of data, statistical time series etc which lets us to build complex visualizations.
+
+Its standard designs are awesome and it also has a nice interface for working with pandas dataframes.
+ 
+Data visualization is the discipline of trying to understand data by placing it in a visual context so that patterns, trends and correlations that might not otherwise be detected can be exposed.
+
 
 # 11. Data Mining
 
