@@ -171,7 +171,7 @@ Any imputing conducted on the training dataset will have to be performed on new 
 For example, if one chooses to impute with mean column values, the mean column values will need to be stored to file for later exercise new data that has missing values.
 
 
-# 4.EDA (Exploratory Data Analysis)
+# 4. EDA (Exploratory Data Analysis)
 
 EDA or Exploratory Data Analysis is the brainstorming stage of Machine Learning. Data Exploration involves understanding the patterns and trends in the data. At this stage, all the useful insights are drawn and correlations between the variables are understood.
 
