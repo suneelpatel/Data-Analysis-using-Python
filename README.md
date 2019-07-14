@@ -994,3 +994,12 @@ Analyze sample data. Using sample data, we calculate the standard deviation (σ)
 Since we have a one-tailed test, the P-value is the probability that the z-score is less than -1.75. We use the Normal Distribution Calculator to find P(z < -1.75) = 0.04. Thus, the P-value = 0.04.
 Interpret results. Since the P-value (0.04) is less than the significance level (0.05), we cannot accept the null hypothesis.
 Note: If you use this approach on an exam, you may also want to mention why this approach is appropriate. Specifically, the approach is appropriate because the sampling method was simple random sampling, the sample included at least 10 successes and 10 failures, and the population size was at least 10 times the sample size.
+
+
+# 10. Data Visualization
+
+
+# 11. Data Mining
+
+
+# 12. Anova and Sentiment Analysis
