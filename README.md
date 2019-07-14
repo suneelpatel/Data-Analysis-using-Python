@@ -169,3 +169,50 @@ There are several options users can consider while replacing a missing value, fo
 Any imputing conducted on the training dataset will have to be performed on new data in the future when predictions are required from the finalized model. This needs to be taken into factor when choosing how to impute the missing values.
 
 For example, if one chooses to impute with mean column values, the mean column values will need to be stored to file for later exercise new data that has missing values.
+
+
+# 4.EDA (Exploratory Data Analysis)
+
+EDA or Exploratory Data Analysis is the brainstorming stage of Machine Learning. Data Exploration involves understanding the patterns and trends in the data. At this stage, all the useful insights are drawn and correlations between the variables are understood.
+
+For example, in the case of predicting rainfall, we know that there is a strong possibility of rain if the temperature has fallen low. Such correlations must be understood and mapped at this stage.
+
+**EDA or Exploratory Data Analysis** is an approach for summarizing, visualizing, and becoming intimately familiar with the important characteristics of a data set.
+
+It is an approach/philosophy for data analysis that employs a variety of techniques (mostly graphical) to maximize insight into a data set;
+* uncover underlying structure;
+* extract important variables;
+* detect outliers and anomalies;
+* test underlying assumptions;
+* develop parsimonious models; and
+* determine optimal factor settings.
+
+### Value of Exploratory Data Analysis
+Exploratory Data Analysis is valuable to data science projects since it allows to get closer to the certainty that the future results will be valid, correctly interpreted, and applicable to the desired business contexts. Such level of certainty can be achieved only after raw data is validated and checked for anomalies, ensuring that the data set was collected without errors. EDA also helps to find insights that were not evident or worth investigating to business stakeholders and data scientists but can be very informative about a particular business.
+
+EDA is performed in order to define and refine the selection of feature variables that will be used for machine learning. Once data scientists become familiar with the data set, they often have to return to feature engineering step, since the initial features may turn out not to be serving their intended purpose. Once the EDA stage is complete, data scientists get a firm feature set they need for supervised and unsupervised machine learning.
+
+### Methods of Exploratory Data Analysis
+It is always better to explore each data set using multiple exploratory techniques and compare the results. Once the data set is fully understood, it is quite possible that data scientist will have to go back to data collection and cleansing phases in order to transform the data set according to the desired business outcomes. The goal of this step is to become confident that the data set is ready to be used in a machine learning algorithm.
+
+Exploratory Data Analysis is majorly performed using the following methods:
+* **Univariate Visualization** — provides summary statistics for each field in the raw data set
+* **Bivariate Visualization** — is performed to find the relationship between each variable in the dataset and the target variable of interest
+* **Multivariate Visualization** — is performed to understand interactions between different fields in the dataset
+* **Dimensionality Reduction** — helps to understand the fields in the data that account for the most variance between observations and allow for the processing of a reduced volume of data.
+
+Through these methods, the data scientist validates assumptions and identifies patterns that will allow for the understanding of the problem and model selection and validates that the data has been generated in the way it was expected to. So, value distribution of each field is checked, a number of missing values is defined, and the possible ways of replacing them are found.
+
+### Additional benefits Exploratory Data Analysis brings to projects
+
+Another side benefit of EDA is that it allows to specify or even define the questions you are trying to get the answer to from your data. Companies, that are only starting to leverage Data Science and AI technologies, often face the situation when they realize, that they have a lot of data and no ideas of what value that data can bring to their business decision making.
+However, the questions always come first in data analysis. It doesn’t matter how much data company has, how many tools they have available, whether the data is historical or real time unless business stakeholders have the questions they are trying to solve with their data. EDA can help such companies to start formalizing the right questions, since with wrong questions you get the wrong answers, and take the wrong decisions.
+
+### Why skipping Exploratory Data Analysis is a bad idea
+In a hurry to get to the machine learning stage or simply impress business stakeholders very fast, data scientists tend to either entirely skip the exploratory process or do a very shallow work. It is a very serious and, sadly, common mistake of amateur data science consulting “professionals”.
+
+Such inconsiderate behavior can lead to skewed data, with outliers and too many missing values and, therefore, some sad outcomes for the project:
+* generating inaccurate models;
+* generating accurate models on the wrong data;
+* choosing the wrong variables for the model;
+* inefficient use of the resources, including the rebuilding of the model.
