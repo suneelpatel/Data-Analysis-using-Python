@@ -998,6 +998,18 @@ Note: If you use this approach on an exam, you may also want to mention why this
 
 # 10. Data Visualization
 
+### Matplotlib (Data Visualization)
+
+**Matplotlib** is a Python library this is specially desigend for the development of graphs, charts etc., in order to provide interactive data visualization.
+
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+
+Matplotlib tries to make easy things easy and hard things possible. You can generate plots, histograms, power spectra, bar charts, errorcharts, scatterplots, etc., with just a few lines of code.
+
+Matplotlib is inspried form the MATLAB software and reproduces many of it's feature
+
+Example: Lets plot simple graph on matplotlib
+
 
 # 11. Data Mining
 
