@@ -234,3 +234,22 @@ It is always better to explore each data set using multiple exploratory techniqu
 8. Outlier treatment
 9. Correlation Analysis
 10. Dimensionality Reduction
+
+
+# 5. Statistics Essentials for Analytics
+### What is statistics?
+Statistics Definition: (Science of Average and their Estimate)
+Statistics is the science of collecting, organizing, presenting, analyzing and interpreting data for specific purpose to help in making more effective decision.
+
+#### Why study statistics:
+To make more effective decision for the betterment of individual, society, business, nature and so on
+
+#### Statistical Analysis:
+
+Statistical analysis is implemented to manipulate, summarize, and investigate data, so that useful decision making information results are obtained.
+
+##### Two type of statistics:
+
+1. Descriptive Statistics (used to describe the basic features of the data)
+
+2. Inferential statistics (aims at learning characteristics of the population from a sample)
