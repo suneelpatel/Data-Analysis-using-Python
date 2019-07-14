@@ -146,6 +146,7 @@ Validation rules refer to some repetitive programming steps which are used to ve
 ##### 6. Publishing
 The prepared wrangled data is published so that it can be used further down the line – that is its purpose after all. If needed, you will also have to document the steps which were taken or logic used to wrangle the said data.
 
+
 #### Tidy Data:
 ##### Tidy data is a standard way of mapping the meaning of a dataset to its structure.
 
