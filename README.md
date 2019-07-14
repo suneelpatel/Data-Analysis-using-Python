@@ -998,6 +998,12 @@ Note: If you use this approach on an exam, you may also want to mention why this
 
 # 10. Data Visualization
 
+**Data visualization** is the graphical or pictorial representation of information and data.
+
+Python has already made it easy for you – with two exclusive libraries for visualization, commonly known as matplotlib and seaborn.
+* Matplotlib
+* Seaborn
+
 ### Matplotlib (Data Visualization)
 
 **Matplotlib** is a Python library this is specially desigend for the development of graphs, charts etc., in order to provide interactive data visualization.
@@ -1008,8 +1014,8 @@ Matplotlib tries to make easy things easy and hard things possible. You can gene
 
 Matplotlib is inspried form the MATLAB software and reproduces many of it's feature
 
-Example: Lets plot simple graph on matplotlib
-
+### Seaborn: 
+**Seaborn** is a library for creating informative and attractive statistical graphics in python. This library is based on matplotlib. Seaborn offers various features such as built in themes, color palettes, functions and tools to visualize univariate, bivariate, linear regression, matrices of data, statistical time series etc which lets us to build complex visualizations. 
 
 # 11. Data Mining
 
