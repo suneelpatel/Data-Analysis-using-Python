@@ -888,3 +888,109 @@ A test of a statistical hypothesis, where the region of rejection is on both sid
 **For example**, suppose the null hypothesis states that the mean is equal to 10. The alternative hypothesis would be that the mean is less than 10 or greater than 10. The region of rejection would consist of a range of numbers located on both sides of sampling distribution; that is, the region of rejection would consist partly of numbers that were less than 10 and partly of numbers that were greater than 10.
 
 Example : a college != 4000 student or data science != 80% org adopted
+
+
+# 9. Statistical Testing of Data
+
+Statistical Tests are intended to decide weather a hypothesis about distribution of one or more populations should be accepted or rejected.
+
+Their are two type of statistical tests:
+#### (1) Parametric Tests
+#### (2) Non Parametric Tests
+
+#### Why to use Statistical Testing?
+* To calculate the difference in the sample and population means
+* To find the difference in sample means
+* To test the significance of association between two variables
+* To calculate several population means
+* To test the difference in proportions between two independent populations
+* To test the difference in proporation between sample and population
+
+#### What are parameters?
+* Parameters are numbers which summarize the data for the entrire population, while statistics are numbers which summarize the data from a sample
+* Parametric Testing is used for quanititve data and continuous variables
+
+#### (1) Parametric Tests : A parametric test makes assumption regarding population parameters and distribution
+##### (a) Z Testing
+##### (b) Student T-Testing
+##### (c) P Testing
+##### (d) ANOVA Testing
+
+#### (a) Z Testing:
+The Z Test is used for testing significance difference between two point estimates
+##### Assumptions for Z Test
+* The sample must be randomly selected and data must be quantitative
+* Sample should be larger
+* Data should follow a normal distribution
+
+#### (2) Non-Parametric Tests:
+* Chi-Square Testing
+
+### A/B Testing:
+
+
+##### Problem 1: Two-Tailed Test
+
+The CEO of a large electric utility claims that 80 percent of his 1,000,000 customers are very satisfied with the service they receive. To test this claim, the local newspaper surveyed 100 customers, using simple random sampling. Among the sampled customers, 73 percent say they are very satisified. Based on these findings, can we reject the CEO's hypothesis that 80% of the customers are very satisfied? Use a 0.05 level of significance.
+
+##### Solution: 
+The solution to this problem takes four steps: (1) state the hypotheses, (2) formulate an analysis plan, (3) analyze sample data, and (4) interpret results. We work through those steps below:
+
+State the hypotheses. The first step is to state the null hypothesis and an alternative hypothesis.
+
+Null hypothesis: P = 0.80
+
+Alternative hypothesis: P ≠ 0.80
+
+Note that these hypotheses constitute a two-tailed test. The null hypothesis will be rejected if the sample proportion is too big or if it is too small.
+
+Formulate an analysis plan. For this analysis, the significance level is 0.05. The test method, shown in the next section, is a one-sample z-test.
+
+Analyze sample data. Using sample data, we calculate the standard deviation (σ) and compute the z-score test statistic (z).
+
+          σ = sqrt[ P * ( 1 - P ) / n ]
+
+          σ = sqrt [(0.8 * 0.2) / 100]
+
+          σ = sqrt(0.0016) = 0.04
+
+          z = (p - P) / σ = (.73 - .80)/0.04 = -1.75
+
+          where P is the hypothesized value of population proportion in the null hypothesis, p is the sample proportion, and n is the sample size.
+
+Since we have a two-tailed test, the P-value is the probability that the z-score is less than -1.75 or greater than 1.75.
+
+We use the Normal Distribution Calculator to find P(z < -1.75) = 0.04, and P(z > 1.75) = 0.04. Thus, the P-value = 0.04 + 0.04 = 0.08.
+Interpret results. Since the P-value (0.08) is greater than the significance level (0.05), we cannot reject the null hypothesis.
+Note: If you use this approach on an exam, you may also want to mention why this approach is appropriate. Specifically, the approach is appropriate because the sampling method was simple random sampling, the sample included at least 10 successes and 10 failures, and the population size was at least 10 times the sample size.
+
+
+##### Problem 2: One-Tailed Test
+Suppose the previous example is stated a little bit differently. Suppose the CEO claims that at least 80 percent of the company's 1,000,000 customers are very satisfied. Again, 100 customers are surveyed using simple random sampling. The result: 73 percent are very satisfied. Based on these results, should we accept or reject the CEO's hypothesis? Assume a significance level of 0.05.
+
+##### Solution: 
+The solution to this problem takes four steps: (1) state the hypotheses, (2) formulate an analysis plan, (3) analyze sample data, and (4) interpret results. We work through those steps below:
+
+State the hypotheses. The first step is to state the null hypothesis and an alternative hypothesis.
+
+Null hypothesis: P >= 0.80
+
+Alternative hypothesis: P < 0.80
+
+Note that these hypotheses constitute a one-tailed test. The null hypothesis will be rejected only if the sample proportion is too small.
+
+Formulate an analysis plan. For this analysis, the significance level is 0.05. The test method, shown in the next section, is a one-sample z-test.
+
+Analyze sample data. Using sample data, we calculate the standard deviation (σ) and compute the z-score test statistic (z).
+          
+          σ = sqrt[ P * ( 1 - P ) / n ] = sqrt [(0.8 * 0.2) / 100]
+
+          σ = sqrt(0.0016) = 0.04
+
+          z = (p - P) / σ = (.73 - .80)/0.04 = -1.75
+
+          where P is the hypothesized value of population proportion in the null hypothesis, p is the sample proportion, and n is the sample size.
+
+Since we have a one-tailed test, the P-value is the probability that the z-score is less than -1.75. We use the Normal Distribution Calculator to find P(z < -1.75) = 0.04. Thus, the P-value = 0.04.
+Interpret results. Since the P-value (0.04) is less than the significance level (0.05), we cannot accept the null hypothesis.
+Note: If you use this approach on an exam, you may also want to mention why this approach is appropriate. Specifically, the approach is appropriate because the sampling method was simple random sampling, the sample included at least 10 successes and 10 failures, and the population size was at least 10 times the sample size.
