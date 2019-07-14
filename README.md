@@ -216,3 +216,19 @@ Such inconsiderate behavior can lead to skewed data, with outliers and too many 
 * generating accurate models on the wrong data;
 * choosing the wrong variables for the model;
 * inefficient use of the resources, including the rebuilding of the model.
+
+It is a classical and under-utilized approach that helps you quickly build a relationship with the new data.
+
+It is always better to explore each data set using multiple exploratory techniques and compare the results. The goal of this step is to understand the dataset, identify the missing values & outliers if any using visual and quantitative methods to get a sense of the story it tells. It suggests the next logical steps, questions or areas of research for your project.
+
+### Steps in Data Exploration and Preprocessing:
+1. Identification of variables and data types
+2. Analyzing the basic metrics
+3. Non-Graphical Univariate Analysis
+4. Graphical Univariate Analysis
+5. Bivariate Analysis
+6. Variable transformations
+7. Missing value treatment
+8. Outlier treatment
+9. Correlation Analysis
+10. Dimensionality Reduction
