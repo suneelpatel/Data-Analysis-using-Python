@@ -548,3 +548,105 @@ A confusion matrix is a table that is often used to describe the performance of 
 
                               Specificity = TRUE NEGATIVE / (TRUE NEGATIVE + FALSE POSITIVE)
                               
+
+# 7. Probability and it's Uses
+
+### What is probability?	
+
+A measure of uncertainty of various phenomenon, numerically
+
+* Probability is measure of how likely something will occur
+* It is the ratio of desired outcomes to total outcomes: 
+
+                    Desired Outcomes/ #Total Outcomes
+
+##### In mathematical terms :
+P (E) = No. of favourable outcome / Total no. of outcomes
+
+##### The probability of all outcomes always sum of 1
+P (E) + P (E’) = 1
+
+### Terminologies of Probability
+##### (1) Random Experiment:
+An operation which can produce some well-defined outcomes is called an experiment. Each outcome is called an event
+
+For example; throwing a die or tossing a coin etc.
+In an experiment where all possible outcomes are known and in advance if the exact outcome cannot be predicted, is called a random experiment. 
+
+##### (3) Trial:
+By a trial, we mean performing a random experiment.
+
+##### (4) Sample Space 
+The sample space for a probability experiment is the set of all possible outcomes. This is usually written with set notation (curly brackets). For example, going back to a regular 6-sided die the sample space would be:
+
+S={1,2,3,4,5,6}
+
+##### (5) Event 
+Out of the total results obtained from a certain experiment, the set of those results which are in favor of a definite result is called the event and it is denoted as E.
+
+#### (6) Equally Likely Events:
+
+When there is no reason to expect the happening of one event in preference to the other, then the events are known equally likely events.
+
+For example; when an unbiased coin is tossed the chances of getting a head or a tail are the same.
+
+#### (7) Exhaustive Events:
+
+All the possible outcomes of the experiments are known as exhaustive events.
+
+For example; in throwing a die there are 6 exhaustive events in a trial.
+
+#### (8) Favorable Events:
+
+The outcomes which make necessary the happening of an event in a trial are called favorable events.
+
+For example; if two dice are thrown, the number of favorable events of getting a sum 5 is four,
+
+i.e., (1, 4), (2, 3), (3, 2) and (4, 1).
+
+#### (9) Mutually Exclusive Events: 
+If there be no element common between two or more events, i.e., between two or more subsets of the sample space, then these events are called mutually exclusive events.
+
+If E1 and E2 are two mutually exclusive events, then E1 ∩ E2 = ∅
+
+#### (10) Complementary Event: 
+An event which consists in the negation of another event is called complementary event of the er event. In case of throwing a die, ‘even face’ and ‘odd face’ are complementary to each other. “Multiple of 3” ant “Not multiple of 3” are complementary events of each other.
+
+##### (11) Union of Event:
+Union of events is simply a union of two or more than two events. If A and B are two events then A U B is called union of A and B. suppose that two events are given A and B then. The union of two events A and B is the event which consists all the elements of A and B.
+
+##### Formula:
+Suppose A and B are two events associated with a random experiment. Then the union of A and B is represented by A ∪ B.
+
+The probability of union of two events is given by:
+
+P(A∪B) = P(A)+P(B) – P(A∩B)
+
+Here, P (A) is the probability of event A, P (B) is the probability of event B.
+
+Also, P(A∩B) is the probability of the intersection of events A and B. 
+
+
+When A and B are two independent or mutually exclusive events that is the occurrence of event A does not affect the occurrence of event B at all, in such a case, P(A∩B) = 0 and hence we have,
+
+P(A∪B) = P(A)+P(B)
+
+If we have more than two independent events say A, B & C, then in that case the union probability is given by:
+
+P(A∪B∪C) = P(A)+P(B)+P(C)
+
+If AB and C are not independent or mutually exclusive then the union probability is given by:
+
+P(A∪B∪C) = P(A)+P(B)+P(C) – P(A∩B)–P(B∩C)–P(A∩C) - P(A∩B∩C)
+
+
+##### (12) Intersection of Event
+Intersection of events means that all the events are occurring together. Even if one event holds false all will be false. The intersection of events can only be true if and only if all the events holds true. 
+
+The probability that Events A and B both occur is the probability of the intersection of A and B. The probability of the intersection of Events A and B is denoted by P(A ∩ B). If Events A and B are mutually exclusive, P(A ∩ B) = 0.
+
+The rule of multiplication applies to the situation when we want to know the probability of the intersection of two events; that is, we want to know the probability that two events (Event A and Event B) both occur.
+
+Rule of Multiplication The probability that Events A and B both occur is equal to the probability that Event A occurs times the probability that Event B occurs, given that A has occurred.
+
+P(A ∩ B) = P(A) P(B|A)
