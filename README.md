@@ -394,3 +394,110 @@ Here the samples are selected based on the availability. This method is used whe
 
 ##### For example: 
 Researchers prefer this during the initial stages of survey research, as it’s quick and easy to deliver results.
+
+
+# 6. Descriptive Statistics: 
+Collecting, Summarizing or Describing and Processing data to transform data into information
+
+Descriptive statistics are used to describe the basic features of the data in a study.
+* Descriptive statistics is a data analysis strategy.
+* It deals with the representation of numerical facts, or data, in either table or graphic form, and with the methodology of analysis the data.
+
+Example: A student’s grade point average (GPA), provides a good understanding in analysing his overall performance.
+
+
+### Type of Descriptive Statstics:
+Descriptive statistics are broken down into two categories. **Measures of Central Tendency** and **Measures of Spread (variability or dispersion)**.
+
+### (1) Measure of Centre(Central Tendency):
+The data values for most numerical variables tend to group around a specific value
+
+Measure of centre help us to describe what extent this pattern holds for a specific numerical variable
+
+Three commonly-used measures of centre:
+
+##### (a) Mean (also known as the arithmetic mean or average)
+##### (b) Median  
+##### (c) Mode
+
+#### Mean: “An Average”
+The mean (or average) of a number of observations is the sum of the values of all the observations divided by the total number of observations. It is denoted by the symbol X, read as ‘X bar’.
+
+#### Median: “A middle Value”
+The median is that value of the given number of observations, which divides it into exactly two parts. So, when the data is arranged in ascending (or descending) order the median of ungrouped data is calculated as follows:
+
+(i) When the number of observations (n) is odd, the median is the value of the {(n+1)/2}th observation. For example, if n = 13, the value of the {(13+1)/2}th, i.e., the 7th observation will be the median.
+
+(ii) When the number of observations (n) is even, the median is the mean of the {n/2}th and the {(n+1)/2}th observations.
+
+#### Mode: “The highest or maximum number of frequency”
+The mode is the most common observation of a data set, or the value in the data set that occurs most frequently.
+
+#### Comparison between median and mean:
+Median:
+•	Ignore the extreme value
+•	Tell the point from where 50% data is lesser and 50% is more
+
+Mean:
+•	All the data are given equal importance
+
+#### Relationship among all
+Mean – Mode = 3 (Mean - Median)
+
+Mode = 3Median – 2Mean 
+
+
+### (2) Measure of Spread (Variability / Dispersion) 
+A measure of spread, sometimes also called a measure of dispersion or measure of variability is used to describe the variability in a sample or population.
+
+It is usually used in conjunction with measure of central tendency, such as the mean or median, to provide an overall description of a set of data.
+
+##### (a) Range 
+##### (b) Percentiles/Quartiles
+##### (c) Inter-Quartile Range (IQR) 
+##### (d) Variance
+##### (e) Standard Deviation
+##### (f) Skewness
+##### (g) Kurtosis
+
+#### (a) Range: 
+
+The range is simply the difference between the maximum and minimum values in a data set. 
+##### Range = max - min
+
+So in a data set of 2, 2, 3, 4, 5, 5, 6, 7, 8, 9, 11, 13, 15, 15, 17, 19, 20, the range is the difference between 2 and 20.
+18 = 20 - 2
+
+While it is useful in seeing how large the difference in observations is in a sample, it says nothing about the spread of the data.
+
+#### (b) Percentiles/Quartiles
+##### Percentiles divide a data set into 100 equal parts. A percentile is simply a measure that tells us what percent of the total frequency of a data set was at or below that measure.
+
+##### The Quartiles also divide the data into divisions of 25%, so:
+
+Quartile 1 (Q1) can be called the 25th percentile
+Quartile 2 (Q2) can be called the 50th percentile
+Quartile 3 (Q3) can be called the 75th percentile
+
+#### (c) Inter-Quartile Range (IQR) 
+The inter-quartile range (IQR) gives more information about how the observation values of a data set are dispersed. It shows the range of the middle 50% of observations.
+
+#### (d) Variance
+
+##### Deviation: The difference between each xi and the mean is called deviation about the mean
+
+##### Variance: is based on deviations and entails computing square of deviations
+
+##### Population Variance: Average of Standard Deviations
+
+##### Sample Variance: sum of square deviations divided by n-1
+
+#### (e) Standard Deviation
+
+The standard deviation indicates the average distance between an observation value, and the mean of a data set. In this way, it shows how well the mean represents the values in a data set. Like the mean, it is appropriate to use when the data set is not skewed or containing outliers.
+
+#### (f) Skewness
+In probability theory and statistics, skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. The skewness value can be positive or negative, or undefined.
+
+#### (g) Kurtosis
+In probability theory and statistics, kurtosis is a measure of the "tailedness" of the probability distribution of a real-valued random variable.
