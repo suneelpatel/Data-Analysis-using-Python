@@ -1123,5 +1123,50 @@ In the deployment phase, you ship your data mining discoveries to everyday busin
 * A detailed deployment plan, for shipping, maintenance, and monitoring of data mining discoveries is created.
 * A final project report is created with lessons learned and key experiences during the project. This helps to improve the organization's business policy.
 
+### Data Mining Techniques
+
+#### 1.Classification:
+This analysis is used to retrieve important and relevant information about data, and metadata. This data mining method helps to classify data in different classes.
+
+#### 2. Clustering:
+Clustering analysis is a data mining technique to identify data that are like each other. This process helps to understand the differences and similarities between the data.
+
+#### 3. Regression:
+Regression analysis is the data mining method of identifying and analyzing the relationship between variables. It is used to identify the likelihood of a specific variable, given the presence of other variables.
+
+#### 4. Association Rules:
+This data mining technique helps to find the association between two or more Items. It discovers a hidden pattern in the data set.
+
+#### 5. Outer detection:
+This type of data mining technique refers to observation of data items in the dataset which do not match an expected pattern or expected behavior. This technique can be used in a variety of domains, such as intrusion, detection, fraud or fault detection, etc. Outer detection is also called Outlier Analysis or Outlier mining.
+
+#### 6. Sequential Patterns:
+This data mining technique helps to discover or identify similar patterns or trends in transaction data for certain period.
+
+#### 7. Prediction:
+Prediction has used a combination of the other data mining techniques like trends, sequential patterns, clustering, classification, etc. It analyzes past events or instances in a right sequence for predicting a future event.
+
+#### Challenges of Implementation of Data mine:
+* Skilled Experts are needed to formulate the data mining queries.
+* Overfitting: Due to small size training database, a model may not fit future states.
+* Data mining needs large databases which sometimes are difficult to manage
+* Business practices may need to be modified to determine to use the information uncovered.
+* If the data set is not diverse, data mining results may not be accurate.
+* Integration information needed from heterogeneous databases and global information systems could be complex
+
+### Benefits of Data Mining:
+* Data mining technique helps companies to get knowledge-based information.
+* Data mining helps organizations to make the profitable adjustments in operation and production.
+* The data mining is a cost-effective and efficient solution compared to other statistical data applications.
+* Data mining helps with the decision-making process.
+* Facilitates automated prediction of trends and behaviors as well as automated discovery of hidden patterns.
+* It can be implemented in new systems as well as existing platforms
+* It is the speedy process which makes it easy for the users to analyze huge amount of data in less time.
+'
+### Disadvantages of Data Mining
+* There are chances of companies may sell useful information of their customers to other companies for money. For example, American Express has sold credit card purchases of their customers to the other companies.
+* Many data mining analytics software is difficult to operate and requires advance training to work on.
+* Different data mining tools work in different manners due to different algorithms employed in their design. Therefore, the selection of correct data mining tool is a very difficult task.
+* The data mining techniques are not accurate, and so it can cause serious consequences in certain conditions.
 
 # 12. Anova and Sentiment Analysis
