@@ -1025,6 +1025,16 @@ Data visualization is the discipline of trying to understand data by placing it 
 
 
 # 11. Data Mining
+Data mining is the process of analysing **vast amounts of data** from various sources to extract useful information. This is done through the discovery of previously unknown patterns, correlations, and anomalies, which can then be used to predict future outcomes.
+
+Data mining is also called as Knowledge discovery, Knowledge extraction, data/pattern analysis, information harvesting, etc.
+
+**Machine learning**, takes things further by using algorithms and an iterative process to learn from new data and automatically become better at analysis and prediction. It can do this without the need for human intervention.
+
+It is a multi-disciplinary skill that uses machine learning, statistics, AI and database technology.
+
+The insights derived via Data Mining can be used for marketing, fraud detection, and scientific discovery, etc.
+
 
 
 # 12. Anova and Sentiment Analysis
